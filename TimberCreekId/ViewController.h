@@ -9,6 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)registerButton:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UITextField *idText;
+@property (weak, nonatomic) IBOutlet UILabel *idLabel;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UIView *qrView;
+@property (weak, nonatomic) IBOutlet UITextField *nameText;
+@property (weak, nonatomic) IBOutlet UIButton *registerButton;
+@property (weak, nonatomic) IBOutlet UILabel *bannerLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *qrCodeView;
 
 
 @end
